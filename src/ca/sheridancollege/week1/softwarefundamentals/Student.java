@@ -15,7 +15,7 @@ public class Student {
     private double gpa;
     private String email;
     private int id;
-    private int number;
+    pri
     public double getGpa() {
         return gpa;
     }
@@ -67,34 +67,6 @@ public class Student {
      */
     public void setId(int id) {
         this.id = id;
-    }
-
-    /**
-     * @return the course
-     */
-    public double getCourse() {
-        return course;
-    }
-
-    /**
-     * @param course the course to set
-     */
-    public void setCourse(double course) {
-        this.course = course;
-    }
-
-    /**
-     * @return the number
-     */
-    public int getNumber() {
-        return number;
-    }
-
-    /**
-     * @param number the number to set
-     */
-    public void setNumber(int number) {
-        this.number = number;
     }
 
 }
