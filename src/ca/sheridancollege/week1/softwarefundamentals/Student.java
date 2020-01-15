@@ -12,7 +12,16 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student {
     
     private String name;
+    private double gpa;
+    private String email;
+    
+    public double getGpa() {
+        return gpa;
+    }
 
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
     /**
      * Get the value of name
      *
@@ -29,6 +38,20 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 }
