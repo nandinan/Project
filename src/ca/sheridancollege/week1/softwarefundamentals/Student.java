@@ -15,9 +15,13 @@ public class Student {
     private double gpa;
     private String email;
    private String NUMBER;
-   private String id;    
-    public double getGpa() {
+   private String id;
+   private String status;
+   
+    public double getGpa()
+    {
         return gpa;
+        
     }
 
     public void setGpa(double gpa) {
@@ -91,6 +95,20 @@ public class Student {
      */
     public void setId(String id) {
         this.id = id;
+    }
+
+    /**
+     * @return the status
+     */
+    public String getStatus() {
+        return status;
+    }
+
+    /**
+     * @param status the status to set
+     */
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }
